@@ -1,0 +1,36 @@
+{
+  "name": "namaste-typescript",
+  "version": "1.0.0",
+  "description": "TypeScript Fundamentals and Design Pattern with TypeScript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "ts-node ."
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "test/*"
+    ],
+    "delay": "2500"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ersinghrajkr/namaste-typescript.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Fundamentals",
+    "Design",
+    "Pattern"
+  ],
+  "author": "Raj Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ersinghrajkr/namaste-typescript/issues"
+  },
+  "homepage": "https://github.com/ersinghrajkr/namaste-typescript#readme",
+  "dependencies": {
+    "@types/node": "^20.6.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
